@@ -53,7 +53,7 @@ const Hero = () => {
             w-32 sm:w-48 md:w-72 lg:w-190
             rotate-35  hidden xl:block
           "
-          duration={2}
+          duration={5}
           delay={0.3}
         />
 
