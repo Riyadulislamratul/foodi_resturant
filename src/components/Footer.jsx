@@ -8,13 +8,13 @@ import FooterBottom from "../assets/footerbottom.png";
 
 const Footer = () => {
   return (
-    <Section className="bg-[#E5EBE3] mt-30 overflow-hidden px-3">
-      <Container className="max-w-331.25">
+    <Section className="bg-[#E5EBE3] mt-30 overflow-hidden">
+      <Container className="max-w-331.25 px-3">
         <div className="py-12 sm:py-16 lg:py-25">
           
           {/* ================= DESKTOP / TABLET ================= */}
           <div className="hidden lg:grid grid-cols-[auto_1fr_1fr_1fr] gap-20 xl:gap-40 relative">
-            <div className="absolute -top-81 -left-73">
+            <div className="absolute -top-30 -left-80">
               <img src={FooterTop} alt="" />
             </div>
 
@@ -208,7 +208,7 @@ const Footer = () => {
       </Container>
 
       {/* Bottom Footer */}
-      <div className="bg-[#195A00]">
+      <div className="bg-[#195A00] w-full">
         <div className="max-w-331.25 mx-auto flex flex-col md:flex-row justify-between items-center px-4 sm:px-6">
           <p className="text-white text-sm font-inter py-3 md:py-5 text-center">
             &copy; 2026 Foodi. All rights reserved.
