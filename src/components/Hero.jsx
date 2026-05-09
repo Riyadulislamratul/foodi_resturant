@@ -36,8 +36,8 @@ const Hero = () => {
         <FloatingImage
           src={Leaf2}
           className="
-          top-20 
-            lg:top-16 xl:top-4 left-2
+          top-30 
+            lg:top-26 xl:top-30 left-2
             w-24 sm:w-25 lg:w-20 xl:w-53.5
           "
           duration={2}
