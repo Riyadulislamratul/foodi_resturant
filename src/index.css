@@ -7,4 +7,13 @@
     --font-inter: 'Inter', sans-serif;
     --font-nunito: 'Nunito', sans-serif;
     --font-roboto: 'Roboto', sans-serif;
+
+    /* colors */
+    --color-red: #F03328;
+    --color-text: #666666;
+    --color-yellow: #FFCC00;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-heading: #231900;
+    --color-green: #195A00;
 }

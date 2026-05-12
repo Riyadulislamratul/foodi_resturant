@@ -18,7 +18,7 @@ const Footer = () => {
               <img src={FooterTop} alt="" />
             </div>
 
-            <div className="absolute -bottom-42 -right-73">
+            <div className="absolute -bottom-42 -right-80">
               <img src={FooterBottom} alt="" />
             </div>
 

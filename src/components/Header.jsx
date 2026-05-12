@@ -10,28 +10,28 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6 flex items-center justify-between">
         {/* Logo */}
-        <div className="text-xl sm:text-2xl font-bold z-50">
+        <Link to="/" className="text-xl sm:text-2xl cursor-pointer font-bold z-50">
           <span className="bg-black text-white px-2 rounded">F</span>OODI
-        </div>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex gap-10 font-medium text-lg">
-          <Link to="/" className="hover:opacity-70 transition">
+          <Link to="/" className="hover:text-[#195A00] transition">
             Home
           </Link>
-          <Link to="/menu" className="hover:opacity-70 transition">
+          <Link to="/menu" className="hover:text-[#195A00] transition">
             Menu
           </Link>
-          <Link to="/services" className="hover:opacity-70 transition">
+          <Link to="/services" className="hover:text-[#195A00] transition">
             Services
           </Link>
-          <Link to="/offers" className="hover:opacity-70 transition">
+          <Link to="/offers" className="hover:text-[#195A00] transition">
             Offers
           </Link>
         </nav>
 
         {/* Desktop Contact */}
-        <button className="hidden lg:block font-medium hover:opacity-70 transition text-lg">
+        <button className="hidden lg:block font-medium hover:text-[#195A00] cursor-pointer transition text-lg">
           Contact
         </button>
 
@@ -60,9 +60,9 @@ const Header = () => {
           `}
         >
           <nav className="flex flex-col gap-8 text-lg font-medium">
-            <a href="/" onClick={() => setMenuOpen(false)}>
+            <Link to="/" onClick={() => setMenuOpen(false)}>
               Home
-            </a>
+            </Link>
             <a href="/" onClick={() => setMenuOpen(false)}>
               Menu
             </a>
