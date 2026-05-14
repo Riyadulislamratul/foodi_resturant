@@ -51,7 +51,7 @@ const Testimonial = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-14 items-center">
           
           {/* Left Side Slider */}
-          <div className="w-full max-w-[760px] mx-auto h-auto min-h-[320px] sm:min-h-[380px] md:min-h-[420px] bg-gray-100 rounded-3xl shadow-lg overflow-hidden">
+          <div className="w-full max-w-[760px] mx-auto h-auto min-h-[320px] sm:min-h-[380px] md:min-h-[420px] rounded-3xl shadow-lg overflow-hidden">
             <Swiper
               modules={[Pagination, Autoplay]}
               spaceBetween={30}
