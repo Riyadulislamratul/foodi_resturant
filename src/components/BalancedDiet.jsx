@@ -2,8 +2,9 @@
 import React from "react";
 import Section from "./Section";
 import Container from "./Container";
+import WorkImage from "../assets/work.png";
 
-const BalancedDiet = ({ image }) => {
+const BalancedDiet = ({ image = WorkImage }) => {
   return (
     <Section className="py-20 md:py-28 bg-[#F9F9F9] overflow-hidden">
       <Container className="max-w-[1560px]">
@@ -38,7 +39,7 @@ const BalancedDiet = ({ image }) => {
             </p>
 
             {/* Button */}
-            <button className="group inline-flex items-center gap-4 bg-[#F97316] text-white font-semibold px-8 py-4 rounded-full hover:scale-105 transition duration-300">
+            <button className="group inline-flex items-center gap-4 bg-[#F97316] cursor-pointer text-white font-semibold px-8 py-4 rounded-full hover:scale-105 transition duration-300">
               Learn More
 
               <span className="w-8 h-8 rounded-full bg-white text-[#F97316] flex items-center justify-center group-hover:translate-x-1 transition">
