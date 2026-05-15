@@ -9,6 +9,7 @@ import FAQ from '../components/FAQ'
 import InfoBar from '../components/InfoBar'
 import BalancedDiet from '../components/BalancedDiet'
 import PopularFoods from '../components/PopularFoods'
+import FeaturedProducts from '../components/FeaturedProducts'
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
       <BalancedDiet />
       <InfoBar />
       <PopularFoods />
+      <FeaturedProducts />
     </>
   )
 }
