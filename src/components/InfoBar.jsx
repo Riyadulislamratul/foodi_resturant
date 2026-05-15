@@ -5,7 +5,7 @@ import Container from "./Container";
 
 import Call from "../assets/icons/call.png";
 import Map from "../assets/icons/map.png";
-import Clock from "../assets/icons/Clock.png";
+import Clock from "../assets/icons/clock.png";
 
 const infoData = [
   {
