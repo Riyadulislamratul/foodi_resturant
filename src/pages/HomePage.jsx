@@ -10,6 +10,7 @@ import InfoBar from '../components/InfoBar'
 import BalancedDiet from '../components/BalancedDiet'
 import PopularFoods from '../components/PopularFoods'
 import FeaturedProducts from '../components/FeaturedProducts'
+import PromoFeatures from '../components/PromoFeatures'
 
 const HomePage = () => {
   return (
@@ -25,6 +26,7 @@ const HomePage = () => {
       <InfoBar />
       <PopularFoods />
       <FeaturedProducts />
+      <PromoFeatures />
     </>
   )
 }
