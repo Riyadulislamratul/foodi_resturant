@@ -14,11 +14,11 @@ const Footer = () => {
           
           {/* ================= DESKTOP / TABLET ================= */}
           <div className="hidden lg:grid grid-cols-[auto_1fr_1fr_1fr] gap-20 xl:gap-40 relative">
-            <div className="absolute -top-30 -left-80">
+            <div className="absolute -top-30 -left-102">
               <img src={FooterTop} alt="" />
             </div>
 
-            <div className="absolute -bottom-42 -right-80">
+            <div className="absolute -bottom-42 -right-102">
               <img src={FooterBottom} alt="" />
             </div>
 
