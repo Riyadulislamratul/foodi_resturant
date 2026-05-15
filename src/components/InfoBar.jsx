@@ -30,7 +30,7 @@ const infoData = [
 
 const InfoBar = () => {
   return (
-    <Section className="pt-8 sm:pt-10 md:pt-12 px-3">
+    <Section className="py-8 sm:py-10 md:py-12 px-3">
       <Container className="max-w-[1560px]">
         <div className="bg-white rounded-[20px] sm:rounded-[24px] md:rounded-[30px] shadow-[0_20px_45px_rgba(0,0,0,0.08)] md:shadow-[0_25px_60px_rgba(0,0,0,0.08)] px-4 sm:px-6 md:px-10 py-4 sm:py-6 md:py-8">
           

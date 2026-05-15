@@ -19,8 +19,8 @@ const HomePage = () => {
       <Testimonial />
       <PartofFoodi />
       <FAQ />
-      <InfoBar />
       <BalancedDiet />
+      <InfoBar />
     </>
   )
 }

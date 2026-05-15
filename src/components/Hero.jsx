@@ -115,7 +115,8 @@ const Hero = () => {
               studio.
             </p>
 
-            <button
+            <a href="/Italian_Panzanella_Recipe.pdf" target="_blank" download>
+              <button
               className="
                 mt-6 sm:mt-8 md:mt-10
                 bg-black text-white
@@ -123,12 +124,13 @@ const Hero = () => {
                 py-3 sm:py-4 md:py-5
                 rounded-3xl
                 text-base sm:text-lg
-                font-medium
+                font-medium cursor-pointer
                 hover:scale-105 transition
-              "
+              " 
             >
               Download Recipe
             </button>
+            </a>
           </div>
 
           {/* Right Side Dish */}

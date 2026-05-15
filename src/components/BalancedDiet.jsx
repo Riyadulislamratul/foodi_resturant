@@ -6,7 +6,7 @@ import WorkImage from "../assets/work.png";
 
 const BalancedDiet = ({ image = WorkImage }) => {
   return (
-    <Section className="py-12 sm:py-16 md:py-20 lg:py-28 bg-[#F9F9F9] overflow-hidden px-3">
+    <Section className="py-12 sm:py-16 md:py-20 lg:py-28 bg-[#fff] overflow-hidden px-3">
       <Container className="max-w-[1560px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-14 lg:gap-20 items-center">
           
