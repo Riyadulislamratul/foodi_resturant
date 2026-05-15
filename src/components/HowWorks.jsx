@@ -17,7 +17,6 @@ const HowWorks = () => {
               className="w-full h-auto object-contain"
             />
           </div>
-
         </div>
       </Container>
     </Section>
