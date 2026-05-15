@@ -6,6 +6,8 @@ import HowWorks from '../components/HowWorks'
 import Testimonial from '../components/Testimonial'
 import PartofFoodi from '../components/PartofFoodi'
 import FAQ from '../components/Faq'
+import InfoBar from '../components/InfoBar'
+import BalancedDiet from '../components/BalancedDiet'
 
 const HomePage = () => {
   return (
@@ -17,6 +19,8 @@ const HomePage = () => {
       <Testimonial />
       <PartofFoodi />
       <FAQ />
+      <InfoBar />
+      <BalancedDiet />
     </>
   )
 }
