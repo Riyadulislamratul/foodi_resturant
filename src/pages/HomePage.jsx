@@ -11,6 +11,7 @@ import BalancedDiet from '../components/BalancedDiet'
 import PopularFoods from '../components/PopularFoods'
 import FeaturedProducts from '../components/FeaturedProducts'
 import PromoFeatures from '../components/PromoFeatures'
+import FreshProducts from '../components/FreshProducts'
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
       <PopularFoods />
       <FeaturedProducts />
       <PromoFeatures />
+      <FreshProducts />
     </>
   )
 }
