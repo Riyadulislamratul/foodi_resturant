@@ -31,9 +31,12 @@ const Header = () => {
         </nav>
 
         {/* Desktop Contact */}
-        <button className="hidden lg:block font-medium hover:text-[#195A00] cursor-pointer transition text-lg">
+        <Link
+          to="/contact"
+          className="hidden lg:block font-medium text-lg hover:text-[#195A00] transition"
+        >
           Contact
-        </button>
+        </Link>
 
         {/* Mobile Menu Button */}
         <button

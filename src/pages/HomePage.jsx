@@ -12,6 +12,7 @@ import PopularFoods from '../components/PopularFoods'
 import FeaturedProducts from '../components/FeaturedProducts'
 import PromoFeatures from '../components/PromoFeatures'
 import FreshProducts from '../components/FreshProducts'
+import WhyChoose from '../components/WhyChoose'
 
 const HomePage = () => {
   return (
@@ -29,6 +30,7 @@ const HomePage = () => {
       <FeaturedProducts />
       <PromoFeatures />
       <FreshProducts />
+      <WhyChoose />
     </>
   )
 }
