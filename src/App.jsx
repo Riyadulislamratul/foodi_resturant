@@ -44,7 +44,7 @@ const App = () => {
       {
         path: "cart",
         element: <CartPage />,  
-      },    
+      },  
       {
         path: "*",
         element: <NotFoundPage />,
