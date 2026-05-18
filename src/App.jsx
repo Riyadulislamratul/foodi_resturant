@@ -10,6 +10,7 @@ import ContactPage from './pages/ContactPage';
 import MenuPage from './pages/MenuPage';
 import CartPage from './pages/CartPage';
 import MainLayout from "./components/MainLayout";
+import BlogPage from './pages/BlogPage';
 
 const App = () => {
   const router = createBrowserRouter([
@@ -45,6 +46,10 @@ const App = () => {
         path: "cart",
         element: <CartPage />,  
       },  
+      {
+        path: "blog",
+        element: <BlogPage />,
+      },
       {
         path: "*",
         element: <NotFoundPage />,
